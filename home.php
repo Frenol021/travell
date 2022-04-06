@@ -42,24 +42,52 @@
     <div class="box-container">
 
         <div class="box">
-        <img src="images/travel2.jpg" alt="">
+        <img src="images/travel16.png" alt="">
         <h3>adventure</h3>
         </div>
 
         <div class="box">
-        <img src="images/travel10.jpeg" alt="">
+        <img src="images/travel15.jpg" alt="">
         <h3>camp fire</h3>
         </div>
 
         <div class="box">
-        <img src="images/travel4.jpeg" alt="">
+        <img src="images/travel14.jpg" alt="">
         <h3>vacation</h3>
         </div>
 
         <div class="box">
-        <img src="images/travel8.jpg" alt="">
-        <h3>adventure</h3>
+        <img src="images/travel17.jpg" alt="">
+        <h3>off road</h3>
         </div>
+
+        <div class="box">
+        <img src="images/travel18.jpg" alt="">
+        <h3>baecation</h3>
+        </div>
+
+        <div class="box">
+        <img src="images/travel21.jpg" alt="">
+        <h3>sky diving</h3>
+        </div>
+
+        <div class="box">
+        <img src="images/travel20.jpg" alt="">
+        <h3>road trip</h3>
+        </div>
+
+        <div class="box">
+        <img src="images/travel23.jpg" alt="">
+        <h3>beach vibe</h3>
+        </div>
+
+
+        
+        <div class="box">
+        <img src="images/travel24.jpg" alt="">
+        <h3>Accomodation</h3>
+        </div>
+
 
 
 
