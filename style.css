@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;1,700&display=swap');
+
+:root{
+    --black:black;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 120%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: white;
+
+}
+
+.section{
+    padding: 50px;
+}
+
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: red;
+}
+
+.header{
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: orange;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 140%;
+    color: black;
+}
+
+.header .navbar a{
+    font-size: 100%;
+    color: black;
+    margin-left: 30px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+
+.header .navbar a:hover{
+    color: brown;
+ 
+}
+
+#menu-btn{
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(10rem, 1fr));
+    gap: 3rem;
+ 
+}
+
+.services .box-container .box {
+    padding: 10px 5px;
+    text-align: center;
+    background: rgb(139, 145, 146);
+    
+
+}
+
+.services .box-container .box:hover{
+    color: brown;
+} 
+
+.services .box-container .box img{
+    height: 400px;
+    width: 100px;
+}
+
+.services .box-container .box h3{
+    color: bisque;
+    font-size: 100%;
+    padding-top: 4px;
+}
+
+
+
+.footer{
+    background: url(../images/travel3.jpeg) no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(10rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 90%;
+    color: brown;
+    padding-bottom: 20px;
+
+}
+
+.footer .box-container .box a{
+    font-size: 90%;
+    color: black;
+    padding-bottom: 1rem;
+    display: block;
+
+}
+
+.footer .box-container .box a i{
+    color: orange;
+    padding-right: 5px;
+}
+
+.footer .box-container .box a:hover i{
+    color: white;
+    padding-right: 5px;
+    
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid black;
+    color: red;
+    font-size: 80%;
+}
