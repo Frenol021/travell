@@ -92,7 +92,7 @@ html::-webkit-scrollbar-thumb{
 .services .box-container .box {
     padding: 10px 5px;
     text-align: center;
-    background: rgb(139, 145, 146);
+    background: black;
     
 
 }
@@ -103,7 +103,7 @@ html::-webkit-scrollbar-thumb{
 
 .services .box-container .box img{
     height: 400px;
-    width: 100px;
+    width: 300px;
 }
 
 .services .box-container .box h3{
