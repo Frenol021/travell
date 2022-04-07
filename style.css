@@ -82,6 +82,14 @@ html::-webkit-scrollbar-thumb{
     display: none;
 }
 
+.home{
+    padding:20px;
+}
+
+.home .slide{
+    text-align: center;
+}
+
 .services .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit ,minmax(10rem, 1fr));
@@ -92,7 +100,7 @@ html::-webkit-scrollbar-thumb{
 .services .box-container .box {
     padding: 10px 5px;
     text-align: center;
-    background: rgb(48, 109, 167);
+    background: rgb(187, 192, 197);
     margin-bottom: 30px;
 
 }
@@ -104,7 +112,7 @@ html::-webkit-scrollbar-thumb{
 
 .services .box-container .box img{
     height: 150px;
-    width: 100px;
+    width: 150px;
 }
 
 .services .box-container .box h3{

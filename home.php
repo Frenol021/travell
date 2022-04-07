@@ -34,6 +34,44 @@
 
     </section>
 
+    <!--home section -->
+    <section class="home">
+
+    <div class="home-slider">
+
+    <div class="w">
+
+    <div class="slide"style ="background:url(images/travel2.jpg)no-repeat">
+
+    <div class="content">
+        <span> explore, discover, travel</span>
+        <h3>travel around the world</h3>
+        <a href="package.php" class="btn">discover more</a>
+    </div>
+
+    <div class="content">
+        <span> explore, discover, travel</span>
+        <h3>discover new placese</h3>
+        <a href="package.php" class="btn">discover more</a>
+    </div>
+
+    <div class="content">
+        <span> explore, discover, travel</span>
+        <h3>make memories in touring</h3>
+        <a href="package.php" class="btn">discover more</a>
+    </div>
+
+    </div>
+
+    </div>
+
+
+    </div>
+
+
+    </section>
+
+
 
 <!-- services section -->
 
