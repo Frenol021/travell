@@ -83,11 +83,28 @@ html::-webkit-scrollbar-thumb{
 }
 
 .home{
-    padding:20px;
+    padding: 0;
 }
 
 .home .slide{
     text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 500px;
+    
+}
+
+.home .slide .content{
+    width: 500px;
+
+}
+
+.home .slide .content h3{
+    color: brown;
 }
 
 .services .box-container{
@@ -100,7 +117,7 @@ html::-webkit-scrollbar-thumb{
 .services .box-container .box {
     padding: 10px 5px;
     text-align: center;
-    background: rgb(187, 192, 197);
+    background: rgb(17, 112, 206);
     margin-bottom: 30px;
 
 }

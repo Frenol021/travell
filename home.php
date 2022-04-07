@@ -34,32 +34,36 @@
 
     </section>
 
-    <!--home section -->
+    <!--home section :url(images/travel2.jpg)no-repeat-->
     <section class="home">
 
     <div class="home-slider">
 
     <div class="w">
 
-    <div class="slide"style ="background:url(images/travel2.jpg)no-repeat">
+    <div class="slide" style ="background:url(images/travel1.jpg)no-repeat">
 
-    <div class="content">
-        <span> explore, discover, travel</span>
-        <h3>travel around the world</h3>
-        <a href="package.php" class="btn">discover more</a>
+        <div class="content">
+            <span> explore, discover, travel</span>
+            <h3>travel around the world</h3>
+            <a href="package.php" class="btn">discover more</a>
+        </div>
     </div>
 
-    <div class="content">
-        <span> explore, discover, travel</span>
-        <h3>discover new placese</h3>
-        <a href="package.php" class="btn">discover more</a>
+    <div class="slide" style ="background:url(images/travel7.jpg)no-repeat">
+        <div class="content">
+            <span> explore, discover, travel</span>
+            <h3>discover new placese</h3>
+            <a href="package.php" class="btn">discover more</a>
+        </div>
     </div>
 
-    <div class="content">
-        <span> explore, discover, travel</span>
-        <h3>make memories in touring</h3>
-        <a href="package.php" class="btn">discover more</a>
-    </div>
+    <div class="slide" style ="background:url(images/travel22.jpg)no-repeat">
+        <div class="content">
+            <span> explore, discover, travel</span>
+            <h3>make memories in touring</h3>
+            <a href="package.php" class="btn">discover more</a>
+        </div>
 
     </div>
 
@@ -124,6 +128,11 @@
         <div class="box">
         <img src="images/travel24.jpg" alt="">
         <h3>Accomodation</h3>
+        </div>
+
+        <div class="box">
+        <img src="images/travel22.jpg" alt="">
+        <h3>mountain climbing</h3>
         </div>
 
 
