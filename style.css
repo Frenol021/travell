@@ -34,7 +34,27 @@ html::-webkit-scrollbar-thumb{
 .section{
     padding: 50px;
 }
+@keyframes fadeIn {
+    0%{
+    transform: scale(0.5s);
+    opacity: 0;
+    }
+}
 
+
+.btn{
+    display: inline-block;
+    background: black;
+    color: yellowgreen;
+    font-size: 100%;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: aquamarine;
+}
 
 .heading-title{
     text-align: center;
@@ -86,7 +106,7 @@ html::-webkit-scrollbar-thumb{
     padding: 0;
 }
 
-.home .slide{
+.home .swiper-slide{
     text-align: center;
     padding: 50px;
     display: flex;
@@ -98,13 +118,61 @@ html::-webkit-scrollbar-thumb{
     
 }
 
-.home .slide .content{
+.home .swiper-slide .content{
     width: 500px;
+    display: none;
 
 }
 
-.home .slide .content h3{
-    color: brown;
+.home .swiper-slide .content span{
+    color: rgb(194, 20, 20);
+    font-size: 100%;
+    padding-bottom: 50px;
+    animation:fadeIn .4s linear backwards .2s;
+}
+
+.home .swiper-slide-active .content{
+    display: inline-block;
+}
+
+.home .swiper-slide .content h3{
+    color: orange;
+    font-size: 300%;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: 5px;
+    animation:fadeIn .4s linear backwards .4s;
+}
+
+.home .swiper-slide .content .btn{
+    animation:fadeIn .4s linear backwards .6s;  
+}
+
+.home .swiper-button-next,
+.home .swiper-button-prev{
+    top:inherit;
+    left:inherit;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+}
+
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover{
+    background: red;
+}
+
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after{
+    font-size: 100%
+}
+
+.home .swiper-button-prev{
+    right:inherit;
+    
 }
 
 .services .box-container{

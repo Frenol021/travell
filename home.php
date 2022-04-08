@@ -37,11 +37,11 @@
     <!--home section :url(images/travel2.jpg)no-repeat-->
     <section class="home">
 
-    <div class="home-slider">
+    <div class="swiper home-slider">
 
-    <div class="w">
+    <div class="swiper-wrapper">
 
-    <div class="slide" style ="background:url(images/travel1.jpg)no-repeat">
+    <div class="swiper-slide" style ="background:url(images/travel1.jpg)no-repeat">
 
         <div class="content">
             <span> explore, discover, travel</span>
@@ -50,15 +50,15 @@
         </div>
     </div>
 
-    <div class="slide" style ="background:url(images/travel7.jpg)no-repeat">
+    <div class="swiper-slide" style ="background:url(images/travel7.jpg)no-repeat">
         <div class="content">
             <span> explore, discover, travel</span>
-            <h3>discover new placese</h3>
+            <h3>discover new places</h3>
             <a href="package.php" class="btn">discover more</a>
         </div>
     </div>
 
-    <div class="slide" style ="background:url(images/travel22.jpg)no-repeat">
+    <div class="swiper-slide" style ="background:url(images/travel8.jpg)no-repeat">
         <div class="content">
             <span> explore, discover, travel</span>
             <h3>make memories in touring</h3>
@@ -67,7 +67,11 @@
 
     </div>
 
+    
     </div>
+
+    <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
 
 
     </div>
@@ -142,6 +146,19 @@
 </div>
 
 
+<section class = "home-about">
+
+<div class= "image">
+    <img src = "images/travel10">
+    b
+</div>
+
+<div class="content">
+    <h3> about us </h3>
+    <p> frenol we are helping you in creating memories</p>
+    <a href="about.php"  class="btn">read more </a>
+</div>
+</section>
 
 
 <!-- footer-->
@@ -192,6 +209,7 @@
 
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
 
 
 <script src="script.js"></script>
