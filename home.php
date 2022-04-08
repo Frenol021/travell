@@ -149,8 +149,8 @@
 <section class = "home-about">
 
 <div class= "image">
-    <img src = "images/travel10">
-    b
+<img src="images/travel11.jpeg" alt="">
+    
 </div>
 
 <div class="content">

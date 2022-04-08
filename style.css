@@ -16,6 +16,8 @@
 html{
     font-size: 120%;
     overflow-x: hidden;
+    background-color: rgb(177, 185, 57);
+   
 }
 
 html::-webkit-scrollbar{
@@ -206,6 +208,38 @@ html::-webkit-scrollbar-thumb{
     padding-top: 4px;
 }
 
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex:1 1 41rem;
+}
+
+.home-about .image img{
+    width: 80%;
+    height: 0%;
+    margin-left: 10px;
+}
+
+.home-about .content{
+    flex:20 20 30rem;
+    padding: 3rem;
+    background-color: rgb(161, 45, 45);
+    margin-right: 25px;  
+}
+
+.home-about .content h3{
+    font-size: 150%;
+    color: bisque;
+}
+
+.home-about .content p{
+    font-size: 100%;
+    color: rgb(201, 135, 55);
+}
 
 
 .footer{
