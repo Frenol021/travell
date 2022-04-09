@@ -44,6 +44,24 @@ html::-webkit-scrollbar-thumb{
 }
 
 
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading h1{
+   font-size: 140%;
+   text-transform: uppercase; 
+   color: brown;
+   text-shadow: powderblue;
+
+}
+
 .btn{
     display: inline-block;
     background: black;
@@ -158,7 +176,7 @@ html::-webkit-scrollbar-thumb{
     right: 0;
     background: white;
     color: black;
-    height: 50px;
+    height: 30px;
     width: 50px;
 }
 
@@ -301,11 +319,124 @@ html::-webkit-scrollbar-thumb{
 .home-offer .content h3{
     font-size: 120%;
     color: red;
+    text-transform: uppercase;
 }
 
 .home-offer .content p{
     color: black;
     font-size: 100%;
+    padding: 5px;
+}
+
+.home-offer .content .btn{
+   margin-bottom: 10px;
+}
+
+
+
+
+.about{
+    text-align: center;
+    display: flex;
+    font-size: 100%;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image{
+    flex: 1 1 30rem;
+
+}
+
+.about .image img{
+    width: 80%;
+}
+
+.about .content{
+    flex: 1 1 20rem;
+    text-align: center;
+}
+
+.about .content h3{
+    text-align: center;
+    font-size: 140%;
+    color: aqua;
+}
+
+.about .content p{
+    font-size: 100%;
+    color: yellow;
+    line-height: 1;
+    padding: 5px;
+}
+
+.about .content .icon-container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.about .content .icon-container .icons{
+    background-color: white;
+    padding: 1rem;
+    flex: 1 1 3rem;
+    margin-right: 10px;
+}
+
+.about .content .icon-container icons i{
+    font-size: 200%;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.about .content .icon-container .icons span{
+    font-size: 80%;
+    color: red;
+    display: block;
+}
+
+.review{
+    background-color: bisque;
+}
+
+.review .slide{
+    padding: 25px;
+    background-color: beige;
+    text-align: center;
+}
+
+.review .slide .stars{
+    padding-bottom: 10px;
+}
+
+.review .slide .stars i{
+    font-size: 120%;
+    color: black;
+}
+
+.review .slide p{
+    font-size: 100%;
+    color: black;
+    line-height: 2;
+    padding: 10px;
+}
+
+.review .slide h3{
+    color: black;
+    font-size: 140%;
+}
+.review .slide span{
+    color: red;
+    font-size: 120%;
+    display: block;
+}
+
+.review .slide img{
+    width: 30%;
+    height: 20%;
+    margin-top: 20px;
 }
 
 .footer{

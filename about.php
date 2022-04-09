@@ -37,10 +37,121 @@
     <div class="heading">
         <h1>about us</h1>
     </div>
-       
+    <!-- about section -->   
+<section class="about">
+    <div class="image">
+        <img src="images/travel11.jpeg" alt="">
+    </div>
+<div class="content">
+    <h3>why choose us.</h3>
+    <p>we make you dream come true.</p>
+    <p>we treat you as per your desire .</p>
+<div class="icon-container">
+    <div class="icons">
+        <i class="fas fa-map"></i>
+        <span>top destinations</span>
+    </div>
 
+    <div class="icons">
+        <i class="fas fa-hand-holding-usd"></i>
+        <span>affordable prices</span>
+    </div>
 
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <span>guiding services</span>
+    </div>
 
+</div>
+</div>
+</section>
+
+<!-- review section -->
+<section class="review">
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>our review</p>
+                <h3>Delvis kimathi</h3>
+                <span>traveller</span>
+                <img src="images/travel9.jpeg" alt="">
+
+            </div>
+            <div class="swiper-slider slide">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>our review</p>
+                <h3>john lee</h3>
+                <span>traveller</span>
+                <img src="images/travel26.jpeg" alt="">
+
+            </div>
+
+            <div class="swiper-slider slide">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>our review</p>
+                <h3>Aic kisii youth</h3>
+                <span>traveller</span>
+                <img src="images/travel27.jpeg" alt="">
+
+            </div>
+            <div class="swiper-slider slide">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>our review</p>
+                <h3>Aic kisii youth</h3>
+                <span>traveller</span>
+                <img src="images/travel2.jpeg" alt="">
+
+            </div>
+            <div class="swiper-slider slide">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>our review</p>
+                <h3>the grate</h3>
+                <span>traveller</span>
+                <img src="images/travel28.jpeg" alt="">
+
+            </div>
+            <div class="swiper-slider slide">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>our review</p>
+                <h3>bentley & belvas</h3>
+                <span>traveller</span>
+                <img src="images/travel29.jpeg" alt="">
+
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- footer-->
 <section class="footer">
