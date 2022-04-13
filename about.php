@@ -83,7 +83,7 @@
                 <img src="images/travel9.jpeg" alt="">
 
             </div>
-            <div class="swiper-slider slide">
+            <div class="swiper-slide">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -97,7 +97,7 @@
 
             </div>
 
-            <div class="swiper-slider slide">
+            <div class="swiper-slide">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -110,7 +110,7 @@
                 <img src="images/travel27.jpeg" alt="">
 
             </div>
-            <div class="swiper-slider slide">
+            <div class="swiper-slide">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -123,7 +123,7 @@
                 <img src="images/travel2.jpeg" alt="">
 
             </div>
-            <div class="swiper-slider slide">
+            <div class="swiper-slide">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -136,7 +136,7 @@
                 <img src="images/travel28.jpeg" alt="">
 
             </div>
-            <div class="swiper-slider slide">
+            <div class="swiper-slide">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -149,7 +149,11 @@
                 <img src="images/travel29.jpeg" alt="">
 
             </div>
+            <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
         </div>
+       
     </div>
 </section>
 

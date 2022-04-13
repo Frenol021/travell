@@ -36,9 +36,53 @@
 
     <div class="heading">
         <h1>package</h1>
+        
     </div>
        
+<section class="packages">
+    <h1 class="heading-title">top destinations</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="images">
+            <img src="images/travel31.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventure and touring</h3>
+                <p>diani beach  ,one of the best beaches in kenya </p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
 
+        <div class="box">
+            <div class="images">
+            <img src="images/travel31.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventure and touring</h3>
+                <p>diani beach  ,one of the best beaches in kenya </p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="images">
+            <img src="images/travel31.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>adventure and touring</h3>
+                <p>diani beach  ,one of the best beaches in kenya </p>
+                <a href="book.php" class="btn">book now</a>
+            </div>
+        </div>
+
+      
+
+        
+        
+
+    </div>
+    <div class="load-more"><a href="package.php" class="btn">load more</a></div>
+</section>
 
 
 
