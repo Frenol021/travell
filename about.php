@@ -120,7 +120,7 @@
                 <p>our review</p>
                 <h3>Aic kisii youth</h3>
                 <span>traveller</span>
-                <img src="images/travel2.jpeg" alt="">
+                <img src="images/travel21.jpg" alt="">
 
             </div>
             <div class="swiper-slide">

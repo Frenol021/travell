@@ -55,11 +55,11 @@
 
     <div class="inputBox">
         <span>phone :</span>
-        <input type="number" placeholder="enter your phone number" name="phone ">
+        <input type="number" placeholder="enter your phone number" name="phone">
     </div>
     <div class="inputBox">
-        <span>adress :</span>
-        <input type="text" placeholder="enter your adress" name="adress">
+        <span>address :</span>
+        <input type="text" placeholder="enter your adress" name="address">
     </div>
     <div class="inputBox">
         <span>where to :</span>
