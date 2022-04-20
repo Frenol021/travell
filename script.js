@@ -23,7 +23,7 @@ var swiper = new Swiper(".home-slider", {
     spaceBetween: 40,
     centeredSlides: true,
     autoplay: {
-      delay: 2000,
+      delay: 2500,
       disableOnInteraction: false,
     },
     pagination: {
