@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;1,700&display=swap');
+
+:root{
+    --black:black;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 120%;
+    overflow-x: hidden;
+    background-color: goldenrod
+   
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: white;
+
+}
+
+.section{
+    padding: 50px;
+}
+@keyframes fadeIn {
+    0%{
+    transform: scale(0.5s);
+    opacity: 0;
+    }
+}
+
+
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading h1{
+   font-size: 140%;
+   text-transform: uppercase; 
+   color: brown;
+   text-shadow: powderblue;
+
+}
+
+.btn{
+    display: inline-block;
+    background: black;
+    color: rgb(249, 252, 244);
+    font-size: 100%;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: aquamarine;
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 250%;
+    text-transform: uppercase;
+    color: red;
+}
+
+.header{
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: orange;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 140%;
+    color: black;
+}
+
+.header .navbar a{
+    font-size: 100%;
+    color: black;
+    margin-left: 30px;
+    margin-right: 20px;
+    letter-spacing: 3px;
+}
+
+.header .navbar a:hover{
+    color: brown;
+ 
+}
+
+#menu-btn{
+    font-size: 90%;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    padding: 0;
+}
+
+.home .swiper-slide{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 500px;
+    
+}
+
+.home .swiper-slide .content{
+    width: 500px;
+    display: none;
+
+}
+
+.home .swiper-slide .content span{
+    color: rgb(194, 20, 20);
+    font-size: 100%;
+    padding-bottom: 50px;
+    animation:fadeIn .4s linear backwards .2s;
+}
+
+.home .swiper-slide-active .content{
+    display: inline-block;
+}
+
+.home .swiper-slide .content h3{
+    color: orange;
+    font-size: 300%;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: 5px;
+    animation:fadeIn .4s linear backwards .4s;
+}
+
+.home .swiper-slide .content .btn{
+    animation:fadeIn .4s linear backwards .6s;  
+}
+
+.home .swiper-button-next,
+.home .swiper-button-prev{
+    top:inherit;
+    left:inherit;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 50px;
+}
+
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover{
+    background: red;
+}
+
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after{
+    font-size: 100%
+}
+
+.home .swiper-button-prev{
+    right:inherit;
+    
+}
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(10rem, 1fr));
+    gap: 3rem;
+ 
+}
+
+.services .box-container .box {
+    padding: 10px 5px;
+    text-align: center;
+    background: rgb(17, 112, 206);
+    margin-bottom: 30px;
+
+}
+
+.services .box-container .box h3:hover{
+    color: brown;
+    cursor: pointer;
+} 
+
+.services .box-container .box img{
+    height: 150px;
+    width: 150px;
+}
+
+.services .box-container .box h3{
+    color: bisque;
+    font-size: 100%;
+    padding-top: 4px;
+}
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex:1 1 41rem;
+}
+
+.home-about .image img{
+    width: 80%;
+    height: 0%;
+    margin-left: 10px;
+}
+
+.home-about .content{
+    flex:20 20 30rem;
+    padding: 3rem;
+    background-color: rgb(161, 45, 45);
+    margin-right: 25px;  
+}
+
+.home-about .content h3{
+    font-size: 150%;
+    color: bisque;
+}
+
+.home-about .content p{
+    font-size: 200%;
+    color: rgb(201, 135, 55);
+}
+
+.home-packages{
+    background-color: bisque;
+}
+
+.home-packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(3rem, 1fr));
+    gap: 50px;
+}
+
+.home-packages .box-container .box{
+    border: 2px;
+    box-shadow: 3px;
+    background-color: orange;
+}
+
+.home-packages .box-container .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.home-packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.home-packages .box-container .box .content{
+    padding: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-packages .box-container .box .content h3{
+    font-size: 120%;
+    color: black;
+}
+
+.home-packages .box-container .box .content p{
+    font-size: 100%;
+    color: black;
+    line-height: 1px;
+    padding-top: 10px;
+}
+
+.home-packages .load-more{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.home-offer{
+    text-align: left;
+}
+
+.home-offer .content h3{
+    font-size: 120%;
+    color: red;
+    text-transform: uppercase;
+}
+
+.home-offer .content p{
+    color: black;
+    font-size: 100%;
+    padding: 5px;
+}
+
+.home-offer .content .btn{
+   margin-bottom: 10px;
+}
+
+
+
+
+.about{
+    text-align: center;
+    display: flex;
+    font-size: 100%;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image{
+    flex: 1 1 30rem;
+
+}
+
+.about .image img{
+    width: 80%;
+}
+
+.about .content{
+    flex: 1 1 20rem;
+    text-align: center;
+}
+
+.about .content h3{
+    text-align: center;
+    font-size: 140%;
+    color: aqua;
+}
+
+.about .content p{
+    font-size: 100%;
+    color: yellow;
+    line-height: 1;
+    padding: 5px;
+}
+
+.about .content .icon-container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.about .content .icon-container .icons{
+    background-color: white;
+    padding: 1rem;
+    flex: 1 1 3rem;
+    margin-right: 10px;
+}
+
+.about .content .icon-container icons i{
+    font-size: 200%;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.about .content .icon-container .icons span{
+    font-size: 80%;
+    color: red;
+    display: block;
+}
+
+.review{
+    background-color: bisque;
+}
+
+.review .slide{
+    padding: 25px;
+    background-color: beige;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.review .slide .stars{
+    padding-bottom: 10px;
+}
+
+.review .slide .stars i{
+    font-size: 120%;
+    color: black;
+}
+
+.review .slide p{
+    font-size: 100%;
+    color: black;
+    line-height: 2;
+    padding: 10px;
+}
+
+.review .slide h3{
+    color: black;
+    font-size: 140%;
+}
+.review .slide span{
+    color: red;
+    font-size: 120%;
+    display: block;
+}
+
+.review .slide img{
+    width: 30%;
+    height: 20%;
+    margin-top: 20px;
+    object-fit: cover;
+    display: block;
+}
+
+.review .swiper-button-next,
+.review .swiper-button-prev{
+    top:inherit;
+    left:inherit;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 50px;
+}
+
+.review .swiper-button-next:hover,
+.review.swiper-button-prev:hover{
+    background: red;
+}
+
+.review .swiper-button-next::after,
+.review .swiper-button-prev::after{
+    font-size: 100%
+}
+
+.review .swiper-button-prev{
+    right:inherit;
+    
+}
+
+
+
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(3rem, 1fr));
+    
+    gap: 50px;
+}
+
+.packages .box-container .box{
+    border: 3px;
+    box-shadow: 5px;
+    background-color: orange;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5){
+display:inline-block;
+}
+.packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+    
+}
+
+.packages .box-container .image{
+    height: 25rem;
+    overflow: hidden;
+   padding-right: 20px;
+}
+
+.packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+    overflow: hidden;
+    
+}
+
+.packages .box-container .box .content{
+    padding: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 120%;
+    color: black;
+}
+
+.packages .box-container .box .content p{
+    font-size: 100%;
+    color: black;
+    line-height: 1px;
+    padding-top: 10px;
+}
+
+.packages .load-more{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.booking .book-form{
+    padding: 20px;
+    background-color: rgb(212, 197, 178);
+
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.booking .book-form .flex .inputBox{
+    flex: 1 1 30rem;
+}
+
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 5px 7px;
+    font-size: 120%;
+    color: black;
+    text-transform: none;
+    margin-top: 5px;
+}
+.booking .book-form .flex .inputBox input:focus{
+    background-color: black;
+    color: white;
+
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    background-color: black;
+    color: white;
+}
+.booking .book-form .flex .inputBox span{
+    font-size: 100%;
+    color: black
+
+}
+
+.booking .book-form .btn{
+    margin-top: 25px;
+}
+
+.footer{
+    background: url(../images/travel3.jpeg) no-repeat;
+    background-color: rgb(80, 73, 73);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(10rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 90%;
+    color: brown;
+    padding-bottom: 20px;
+
+}
+
+.footer .box-container .box a{
+    font-size: 90%;
+    color: white;
+    padding-bottom: 1rem;
+    display: block;
+
+}
+
+.footer .box-container .box a i{
+    color: orange;
+    padding-right: 5px;
+}
+
+.footer .box-container .box a:hover i{
+    color: white;
+    padding-right: 5px;
+    
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid black;
+    color: red;
+    font-size: 80%;
+}
