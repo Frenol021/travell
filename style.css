@@ -585,7 +585,6 @@ display:inline-block;
     background-color: rgb(80, 73, 73);
     background-size: cover;
     background-position: center;
-
     background-attachment: fixed;
 }
 
@@ -603,7 +602,7 @@ display:inline-block;
 }
 
 .footer .box-container .box a{
-    font-size: 100%;
+    font-size: 90%;
     color: white;
     padding-bottom: 1rem;
     display: block;
