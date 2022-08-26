@@ -131,7 +131,7 @@
                     <i class="fas fa-star"></i>
                 </div>
                 <p>our review</p>
-                <h3>the grate</h3>
+                <h3>The grate</h3>
                 <span>traveller</span>
                 <img src="images/travel28.jpeg" alt="">
 

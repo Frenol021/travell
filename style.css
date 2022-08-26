@@ -19,7 +19,6 @@ html{
     background-color: goldenrod
    
 }
-
 html::-webkit-scrollbar{
     width: 1rem;
 }
