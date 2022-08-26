@@ -585,6 +585,7 @@ display:inline-block;
     background-color: rgb(80, 73, 73);
     background-size: cover;
     background-position: center;
+    
     background-attachment: fixed;
 }
 
